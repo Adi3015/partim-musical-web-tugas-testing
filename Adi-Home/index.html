@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- PENANGGUNG JAWAB HALAMAN: Adi | Halaman: Home | Folder: Adi-Home/ -->
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff67ae">
+  <title>PARTIM MUSICAL — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Cal+Sans&family=Gasoek+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<!-- Warna latar halaman: ubah kode warna di bawah (contoh #f6ff45 = kuning) -->
+<body style="background:#f6ff45">
+
+<!-- ================= HEADER & MENU =================
+     Nama acara / logo: ubah teks "PARTIM MUSICAL 2028" di bawah.
+     Menu sama di semua halaman. Kalau menambah menu baru, ubah di semua file.
+-->
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="../Adi-Home/index.html"><small>LOGO</small><b>PARTIM MUSICAL 2028</b></a>
+    <button class="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
+    <nav class="nav">
+      <a href="../Adi-Home/index.html" aria-current="page">HOME</a>
+      <a href="../Parly-LineUp/index.html">LINE UP</a>
+      <a href="../Rapli-Rundown/index.html">RUNDOWN</a>
+      <a href="../Rizkiy-About/index.html">ABOUT</a>
+      <a href="../Adimulyono-Galery/index.html">GALERY</a>
+      <a href="../Alinda-Merch/index.html">MERCH</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= HERO: POSTER + HITUNG MUNDUR ================= -->
+  <section class="hero">
+    <!-- hiasan kiri & kanan (gambar yang sama, kanan otomatis dibalik) -->
+    <img class="tr l" src="../img/302d6a5c.png" alt="">
+    <img class="tr r" src="../img/302d6a5c.png" alt="">
+
+    <!-- POSTER UTAMA -->
+    <img class="poster" src="../img/749b3f6e.png" alt="Partim Musical Vol.3">
+
+    <!-- HITUNG MUNDUR: ubah tanggal di data-target (lihat panduan di atas) -->
+    <div class="cd" data-target="2027-11-16T00:00:00+07:00">
+      <div><div class="l">DAY</div><div class="n" id="cd-d">00</div></div>
+      <div><div class="l">HOURS</div><div class="n" id="cd-h">00</div></div>
+      <div><div class="l">MINUTE</div><div class="n" id="cd-m">00</div></div>
+      <div><div class="l">SECCOND</div><div class="n" id="cd-s">00</div></div>
+    </div>
+  </section>
+
+  <!-- ================= PITA 1 (biru, berjalan ke kanan) =================
+       Warna: background = latar, color = huruf. Teks diulang 34x agar tidak putus. -->
+  <div class="mq r" style="background:#67c9ff;color:#fff" aria-hidden="true"><div class="t">
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+  </div></div>
+
+  <!-- BLOK OREN (hiasan, tinggi diatur di style.css pada .or) -->
+  <section class="or"></section>
+
+  <!-- ================= PITA 2 (kuning, berjalan ke kiri) ================= -->
+  <div class="mq l" style="background:#f6ff45;color:#000" aria-hidden="true"><div class="t">
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+    <span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span><span>muda partim</span>
+  </div></div>
+
+  <!-- ================= AREA SENANG (hijau) ================= -->
+  <section class="gr">
+
+    <div class="gr-row">
+      <!-- teks melingkar KIRI: ubah data-text -->
+      <div class="cir "><div class="atext" data-text="— Mari Bergoyang, Mari Berdendang" data-size="120"></div></div>
+
+      <!-- GAMBAR BALON -->
+      <img class="balloon" src="../img/19c393e1.png" alt="Area Senang">
+
+      <!-- teks melingkar KANAN: ubah data-text -->
+      <div class="cir "><div class="atext" data-text="— Mari Bergoyang, Mari Berdendang" data-size="120"></div></div>
+    </div>
+
+    <!-- 3 GAMBAR DI BAWAH (peta & foto), tampil berjajar -->
+    <div class="map">
+      <img src="../img/4ae652be.jpg" alt="Peta">
+      <img src="../img/9fb3ba31.jpg" alt="">
+      <img src="../img/527a9654.jpg" alt="">
+    </div>
+
+  </section>
+</main>
+
+<!-- ================= FOOTER =================
+     Link footer & media sosial: ganti tanda  #  dengan alamat tujuan,
+     contoh  href="https://instagram.com/akun_anda"
+     Logo sponsor & promotor: timpa file di folder img/ (nama file sama).
+-->
+<footer class="ft">
+  <div class="ft-top">
+    <div class="ft-l">
+      <a href="../Rizkiy-About/index.html">ABOUT</a>
+      <a href="#">CONTACT US</a><!-- ganti # dengan link kontak, misal https://wa.me/62xxxxxxxxxx -->
+      <a href="#">SPONSOR &amp; SUPPORT</a><!-- ganti # dengan link sponsor -->
+    </div>
+    <div class="ft-s">
+      <a href="#"><img src="../img/a98fd233.png" alt="Instagram"></a><!-- ganti # dengan link Instagram -->
+      <a href="#"><img src="../img/fbf74afa.png" alt="TikTok"></a><!-- ganti # dengan link TikTok -->
+      <a href="#"><img src="../img/1cc841e3.png" alt="YouTube"></a><!-- ganti # dengan link YouTube -->
+    </div>
+  </div>
+
+  <p class="lb">SPONSORED BY:</p>
+  <img class="sp" src="../img/c2518e36.png" alt="Sponsor" loading="lazy"><!-- gambar logo sponsor -->
+
+  <p class="lb lb2">PROMOTED BY:</p>
+  <img class="mu" src="../img/17ef7364.png" alt="Muda Partim" loading="lazy"><!-- gambar logo promotor -->
+
+  <div class="bar"></div>
+</footer>
+
+<script src="../main.js"></script>
+</body>
+</html>
